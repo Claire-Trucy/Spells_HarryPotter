@@ -1,0 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Labrada:ital,wght@0,200;0,300;0,600;1,300&display=swap');
+
+body {
+    background: url('./background-dark.png');
+    font-family: 'Labrada', serif;
+}

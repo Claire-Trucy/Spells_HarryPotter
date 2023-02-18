@@ -1,21 +1,22 @@
 .header {
     display: flex;
-    justify-content: space-between;
-}
+    justify-content: center;
+    padding-top: 20px;
+    background-color: #0000005e;
+    box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
 
-.img--edge {
-    max-width: 150px;
-}
+    &_menu {
+        color: #FFF;
+        display: flex;
+        align-items: center;
+        font-size: 1.3em;;
 
-.middle img{
-    max-width: 600px;
-    margin: 90px;
-}
+        &_link {
+            margin-right: 30px;
+        }
+    }
 
-.img--edge-s {
-    max-width: 174px;
-}
-
-.img--center {
-    max-width: 220px;
+    & img {
+        width: 500px;
+    }
 }
